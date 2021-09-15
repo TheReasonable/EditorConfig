@@ -21,6 +21,11 @@ indent_size = 4
 tab_width = 4
 trim_trailing_whitespace = true
 
+# Go
+# https://go.dev/
+[*.go]
+indent_style = tab
+
 # Makefile
 # https://www.gnu.org/software/make/manual/html_node/Makefiles.html
 [{M,m}akefile]
