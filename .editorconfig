@@ -21,6 +21,11 @@ indent_size = 4
 tab_width = 4
 trim_trailing_whitespace = true
 
+# Makefile
+# https://www.gnu.org/software/make/manual/html_node/Makefiles.html
+[{M,m}akefile]
+indent_style = tab
+
 # Markdown
 # https://daringfireball.net/projects/markdown/
 [*.{md,markdown,mdown,mdwn,mdx,mkd,mkdn,mkdown}]
