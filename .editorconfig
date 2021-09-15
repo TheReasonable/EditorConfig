@@ -20,3 +20,8 @@ indent_style = space
 indent_size = 4
 tab_width = 4
 trim_trailing_whitespace = true
+
+# Markdown
+# https://daringfireball.net/projects/markdown/
+[*.{md,markdown,mdown,mdwn,mdx,mkd,mkdn,mkdown}]
+trim_trailing_whitespace = false
